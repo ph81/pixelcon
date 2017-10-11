@@ -12,7 +12,7 @@
 
 	Version: 1.0
 
-	
+
 
 	1. Body style
 
@@ -44,7 +44,7 @@
 
 */
 
-@import url(https://fonts.googleapis.com/css?family=Oranienbaum);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 
 html {
 
@@ -196,9 +196,9 @@ a:focus, img:focus, button:focus, .btn:focus {
 
 @font-face {
 
-	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Roboto', sans-serif; */
 
-	font-family: 'Oranienbaum', serif;
+	font-family: 'Roboto', serif;
 
 }
 
@@ -216,7 +216,7 @@ header[role="header"] > hgroup{background-color:rgba(255,255,255,0.7); overflow:
 
 header[role="header"] > hgroup > h1{ padding:0; margin:0; display:inline-block; position:relative; z-index:5}
 
-header[role="header"] > hgroup > h1 > a{ background-color:#353535; text-transform:uppercase; font-family: 'Oranienbaum', serif;text-align:center; font-size:24px; line-height:52px;color:#FFF ;display:inline-block; width:157px; font-weight:500; letter-spacing:5px;  }
+header[role="header"] > hgroup > h1 > a{ background-color:#353535; text-transform:uppercase; font-family: 'Roboto', serif;text-align:center; font-size:24px; line-height:52px;color:#FFF ;display:inline-block; width:157px; font-weight:500; letter-spacing:5px;  }
 
 header[role="header"] > hgroup > h1 > a:hover{ text-decoration:none}
 
@@ -238,7 +238,7 @@ header[role="header"] > hgroup nav .nav-tabs>li.active>a, header[role="header"] 
 
 /*===== Socil-Icons ===*/
 
-header[role="header"] > hgroup .mobile-social{ display:none} 
+header[role="header"] > hgroup .mobile-social{ display:none}
 
 header[role="header"] > hgroup ul[role="socil-icons"]{ list-style:none; padding:0; margin:0; text-align:right; float:right; position:relative; z-index:5}
 
@@ -264,17 +264,17 @@ footer.mobile{ display:none}
 
 article[role="countdown"].countdown-pan{ padding-top:21.5%}
 
-article[role="countdown"].countdown-pan h2{font-family: 'Oranienbaum', serif; padding:0; margin:0; font-size:24px; line-height:26px; text-transform:uppercase; font-weight:400; letter-spacing:3px}
+article[role="countdown"].countdown-pan h2{font-family: 'Roboto', serif; padding:0; margin-top:190px; font-size:48px; font-weight: 900; line-height:26px; text-transform:uppercase; letter-spacing:3px}
 
 article[role="countdown"].countdown-pan h2 > span{ font-size:72px; line-height:72px; position:relative; letter-spacing:inherit; display:inline-block}
 
 article[role="countdown"].countdown-pan h2 > span:after{ content:""; display:block; width:98px; height:3px; position:absolute; left:0; right:0; bottom:-5px; margin:0 auto; background-color:#e84d49}
 
-article[role="countdown"].countdown-pan > p{ text-transform:uppercase; font-weight:700; letter-spacing:3px; margin:0; padding:0; padding-top:29px}
+article[role="countdown"].countdown-pan > p{ text-transform:uppercase; font-weight:700; letter-spacing:3px; margin:0; padding:0; padding-top:199px}
 
 /*===== Page-title ===*/
 
-article header.page-title h2{ text-align:center;font-family: 'Oranienbaum', serif; text-transform:uppercase; font-size:24px; line-height:26px; color:#353535; font-weight:400; letter-spacing:3px; position:relative; margin-bottom:36px; padding:0; margin-top:0}
+article header.page-title h2{ text-align:center;font-family: 'Roboto', serif; text-transform:uppercase; font-size:24px; line-height:26px; color:#353535; font-weight:400; letter-spacing:3px; position:relative; margin-bottom:36px; padding:0; margin-top:0}
 
 article header.page-title h2:after{ content:""; display:block; width:98px; height:3px; position:absolute; left:0; right:0; bottom:-12px; margin:0 auto; background-color:#e84d49}
 
@@ -347,6 +347,3 @@ article[role="contact"].contact-pan ul > li i{ padding-right:3px}
 article[role="contact"].contact-pan ul > li > a{ color:#353535;text-decoration:none}
 
 article[role="contact"].contact-pan a:hover{ color:#e84d49}
-
-
-
