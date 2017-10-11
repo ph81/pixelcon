@@ -5,13 +5,11 @@ var fadeShow = $(".background").fadeShow({
 
 	shuffle: true,
 
-	speed: 5500,
+	speed: 7500,
 
 	images: ['images/bg-image.jpg',
 
-			 		'images/bg-image-1.jpg',
-
-		 			'images/bg-image-2.jpg']
+			 		'images/bg-image-1.jpg']
 
 
 

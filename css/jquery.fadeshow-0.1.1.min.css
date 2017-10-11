@@ -19,9 +19,9 @@ div.fadeShow-container div.image {
 	 background-attachment:fixed;
 	background-size: cover; display:block;
 	background-repeat:no-repeat;
-	transition:opacity 1.5s ease-in-out;
-	-moz-transition:opacity 1.5s ease-in-out;
-	-webkit-transition:opacity 1.5s ease-in-out;
+	transition:opacity 7.5s ease-in-out;
+	-moz-transition:opacity 7.5s ease-in-out;
+	-webkit-transition:opacity 7.5s ease-in-out;
 	opacity:0
 }
 div.fadeShow-container div.image.fillHeight {
